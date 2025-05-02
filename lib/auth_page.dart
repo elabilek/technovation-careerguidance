@@ -1,4 +1,4 @@
-// auth_page.dart (updated to navigate to signup and login)
+// auth_page.dart
 import 'package:flutter/material.dart';
 import 'wave_painter.dart';
 
@@ -9,7 +9,7 @@ class AuthPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color(0xFFE8DFC0), // Beige/cream background
+      backgroundColor: const Color(0xFFE8DFC0), // Beige background
       body: Stack(
         children: [
           // Bottom wave decoration
