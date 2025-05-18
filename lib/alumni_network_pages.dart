@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'wave_painter.dart';
 
 
-// Base class for all alumni network pages
+//for all alumni network pages
 class AlumniNetworkBase extends StatelessWidget {
   final String title;
   final String subtitle;
