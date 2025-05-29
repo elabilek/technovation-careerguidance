@@ -1,6 +1,4 @@
-// menu_page.dart
 import 'package:flutter/material.dart';
-// Import the correct statistics file - fixing the URI error
 import 'statistics_page.dart'; // Changed from statistics_pages.dart
 import 'profile_page.dart';
 import 'career_tests_page.dart';
@@ -13,10 +11,8 @@ import 'un_info_page.dart';
 import 'digital_diary_page.dart';
 import 'inspirational_career_journeys_page.dart';
 import 'career_simulations_page.dart';
-// Removed wave_painter.dart import as it's unused
 
 class MenuPage extends StatelessWidget {
-  // Fixed the key parameter to use super parameter
   const MenuPage({super.key});
 
   @override
