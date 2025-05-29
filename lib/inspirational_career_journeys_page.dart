@@ -1,4 +1,3 @@
-// inspirational_career_journeys_page.dart
 import 'package:flutter/material.dart';
 import 'wave_painter.dart';
 
