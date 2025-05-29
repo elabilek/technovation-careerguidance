@@ -1,4 +1,3 @@
-// alumni_network_pages.dart
 import 'package:flutter/material.dart';
 import 'wave_painter.dart';
 
