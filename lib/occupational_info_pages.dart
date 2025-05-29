@@ -1,9 +1,7 @@
-// occupational_info_pages.dart
 import 'package:flutter/material.dart';
 import 'wave_painter.dart';
 
 
-// Base class for all occupational info pages
 class OccupationalInfoBase extends StatelessWidget {
   final String title;
   final Widget content;
