@@ -1,4 +1,3 @@
-// chart_painters.dart
 import 'package:flutter/material.dart';
 import 'dart:math' as math;
 
@@ -15,7 +14,7 @@ class PieChartPainter extends CustomPainter {
     final paint = Paint()
       ..style = PaintingStyle.fill;
     
-    // Define pie chart segments with colors and angles
+    // pie chart segments with colors and angles
     final segments = [
       {'color': const Color(0xFF5B9BD5), 'startAngle': 0.0, 'sweepAngle': 0.5},
       {'color': const Color(0xFFED7D31), 'startAngle': 0.5, 'sweepAngle': 0.7},
@@ -24,7 +23,7 @@ class PieChartPainter extends CustomPainter {
       {'color': const Color(0xFFB86CA3), 'startAngle': 2.2, 'sweepAngle': 0.5},
     ];
     
-    // Draw pie segments
+   
     for (final segment in segments) {
       paint.color = segment['color'] as Color;
       canvas.drawArc(
@@ -36,7 +35,6 @@ class PieChartPainter extends CustomPainter {
       );
     }
     
-    // Add age labels
     _drawAgeLabels(canvas, size, center, radius);
     
     // Add title if provided
